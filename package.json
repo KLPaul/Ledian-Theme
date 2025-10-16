@@ -1,0 +1,31 @@
+{
+  "name": "ledian",
+  "displayName": "Ledian Theme",
+  "description": "A dark purple, elegant, and minimalist theme for Visual Studio Code.",
+  "version": "0.1.0",
+  "publisher": "KLPaul",
+  "icon": "images/Logo-Ledian.png",
+  "galleryBanner": {
+    "color": "#1B0A2A",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ledian Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ledian Theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KLPaul/Ledian-Theme.git"
+  }
+}
